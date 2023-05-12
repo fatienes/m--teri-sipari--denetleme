@@ -1,0 +1,364 @@
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\csc.exe
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Collections.Immutable.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\System.IO.FileSystem.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Reflection.Metadata.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\grpc_csharp_ext.x86.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\grpc_csharp_ext.x64.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\libgrpc_csharp_ext.x64.so
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\libgrpc_csharp_ext.x64.dylib
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\MusteriSiparis.dll.config
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\MusteriSiparis.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\MusteriSiparis.pdb
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\csc.exe.config
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\csc.rsp
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\csi.exe
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\csi.exe.config
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\csi.rsp
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.Managed.Core.targets
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\System.AppContext.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Console.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Globalization.Calendars.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\System.IO.Compression.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Net.Http.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Net.Sockets.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\System.ValueTuple.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Xml.XmlDocument.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Xml.XPath.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\vbc.exe
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\vbc.exe.config
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\vbc.rsp
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\VBCSCompiler.exe
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\roslyn\VBCSCompiler.exe.config
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\Antlr3.Runtime.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\AspNet.ScriptManager.bootstrap.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\AspNet.ScriptManager.jQuery.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\BLL.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\DAL.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\Microsoft.ScriptManager.WebForms.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\Microsoft.Web.Infrastructure.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\Newtonsoft.Json.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\System.Web.Optimization.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\WebGrease.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\BLL.pdb
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\BLL.dll.config
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\DAL.pdb
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\DAL.dll.config
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\System.Web.Optimization.xml
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\Newtonsoft.Json.xml
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\Antlr3.Runtime.pdb
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\obj\Debug\MusteriSiparis.csproj.AssemblyReference.cache
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\obj\Debug\MusteriSiparis.csproj.CoreCompileInputs.cache
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\obj\Debug\MusteriSiparis.csproj.CopyComplete
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\obj\Debug\MusteriSiparis.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\obj\Debug\MusteriSiparis.pdb
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\ClosedXML.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\DocumentFormat.OpenXml.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\ExcelNumberFormat.dll
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\ClosedXML.pdb
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\ClosedXML.xml
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\DocumentFormat.OpenXml.xml
+D:\MyWork\Simeranya\MusteriSiparis\MusteriSiparis\bin\ExcelNumberFormat.xml
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\grpc_csharp_ext.x86.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\grpc_csharp_ext.x64.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\libgrpc_csharp_ext.x64.so
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\libgrpc_csharp_ext.x64.dylib
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\MusteriSiparis.dll.config
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\MusteriSiparis.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\MusteriSiparis.pdb
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\csc.exe
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\csc.exe.config
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\csc.rsp
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\csi.exe
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\csi.exe.config
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\csi.rsp
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\System.AppContext.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Console.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\System.IO.Compression.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Net.Http.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\System.ValueTuple.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\vbc.exe
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\vbc.exe.config
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\vbc.rsp
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\VBCSCompiler.exe
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\Antlr3.Runtime.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\BLL.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\ClosedXML.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\DAL.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\DocumentFormat.OpenXml.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\ExcelNumberFormat.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\Newtonsoft.Json.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\System.Web.Optimization.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\WebGrease.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\BLL.pdb
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\BLL.dll.config
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\DAL.pdb
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\DAL.dll.config
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\ClosedXML.pdb
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\ClosedXML.xml
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\DocumentFormat.OpenXml.xml
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\ExcelNumberFormat.xml
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\System.Web.Optimization.xml
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\Newtonsoft.Json.xml
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\Antlr3.Runtime.pdb
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\obj\Debug\MusteriSiparis.csproj.AssemblyReference.cache
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\obj\Debug\MusteriSiparis.csproj.CoreCompileInputs.cache
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\obj\Debug\MusteriSiparis.csproj.CopyComplete
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\obj\Debug\MusteriSiparis.dll
+C:\Users\Fatih Enes Savcılı\Desktop\MusteriSiparis\MusteriSiparis\obj\Debug\MusteriSiparis.pdb
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\grpc_csharp_ext.x86.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\grpc_csharp_ext.x64.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\libgrpc_csharp_ext.x64.so
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\libgrpc_csharp_ext.x64.dylib
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\MusteriSiparis.dll.config
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\MusteriSiparis.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\MusteriSiparis.pdb
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\csc.exe
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\csc.exe.config
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\csc.rsp
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\csi.exe
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\csi.exe.config
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\csi.rsp
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\System.AppContext.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Console.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\System.IO.Compression.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Net.Http.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\System.ValueTuple.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\vbc.exe
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\vbc.exe.config
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\vbc.rsp
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\VBCSCompiler.exe
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\Antlr3.Runtime.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\BLL.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\ClosedXML.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\DAL.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\DocumentFormat.OpenXml.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\ExcelNumberFormat.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\Newtonsoft.Json.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\System.Web.Optimization.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\WebGrease.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\BLL.pdb
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\BLL.dll.config
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\DAL.pdb
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\DAL.dll.config
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\ClosedXML.pdb
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\ClosedXML.xml
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\DocumentFormat.OpenXml.xml
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\ExcelNumberFormat.xml
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\System.Web.Optimization.xml
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\Newtonsoft.Json.xml
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\Antlr3.Runtime.pdb
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\obj\Debug\MusteriSiparis.csproj.AssemblyReference.cache
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\obj\Debug\MusteriSiparis.csproj.CoreCompileInputs.cache
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\obj\Debug\MusteriSiparis.csproj.CopyComplete
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\obj\Debug\MusteriSiparis.dll
+C:\Users\Fatih Enes Savcılı\Desktop\zeliha abla\MusteriSiparis\MusteriSiparis\obj\Debug\MusteriSiparis.pdb
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\grpc_csharp_ext.x86.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\grpc_csharp_ext.x64.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\libgrpc_csharp_ext.x64.so
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\libgrpc_csharp_ext.x64.dylib
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\MusteriSiparis.dll.config
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\MusteriSiparis.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\MusteriSiparis.pdb
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\csc.exe
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\csc.exe.config
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\csc.rsp
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\csi.exe
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\csi.exe.config
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\csi.rsp
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\System.AppContext.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Console.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\System.IO.Compression.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Net.Http.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\System.ValueTuple.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\vbc.exe
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\vbc.exe.config
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\vbc.rsp
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\VBCSCompiler.exe
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\Antlr3.Runtime.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\BLL.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\ClosedXML.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\DAL.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\DocumentFormat.OpenXml.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\ExcelNumberFormat.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\Newtonsoft.Json.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\System.Web.Optimization.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\WebGrease.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\BLL.pdb
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\BLL.dll.config
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\DAL.pdb
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\DAL.dll.config
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\ClosedXML.pdb
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\ClosedXML.xml
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\DocumentFormat.OpenXml.xml
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\ExcelNumberFormat.xml
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\System.Web.Optimization.xml
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\Newtonsoft.Json.xml
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\Antlr3.Runtime.pdb
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\obj\Debug\MusteriSiparis.csproj.AssemblyReference.cache
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\obj\Debug\MusteriSiparis.csproj.CoreCompileInputs.cache
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\obj\Debug\MusteriSiparis.csproj.CopyComplete
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\obj\Debug\MusteriSiparis.dll
+C:\Users\Fatih Enes Savcılı\Desktop\mooden\MusteriSiparis\MusteriSiparis\obj\Debug\MusteriSiparis.pdb

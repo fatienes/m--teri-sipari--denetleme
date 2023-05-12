@@ -1,0 +1,879 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7ECA6ACF-CF8D-4419-946D-69B63A43108B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MusteriSiparis</RootNamespace>
+    <AssemblyName>MusteriSiparis</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClosedXML, Version=0.96.0.0, Culture=neutral, PublicKeyToken=fd1eb21b62ae805b, processorArchitecture=MSIL">
+      <HintPath>..\packages\ClosedXML.0.96.0\lib\net46\ClosedXML.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.16.0.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.2.16.0\lib\net46\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelNumberFormat, Version=1.1.0.0, Culture=neutral, PublicKeyToken=23c6f5d73be07eca, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelNumberFormat.1.1.0\lib\net20\ExcelNumberFormat.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.2.0.1\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.bootstrap">
+      <HintPath>..\packages\AspNet.ScriptManager.bootstrap.3.4.1\lib\net45\AspNet.ScriptManager.bootstrap.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.jQuery">
+      <HintPath>..\packages\AspNet.ScriptManager.jQuery.3.4.1\lib\net45\AspNet.ScriptManager.jQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.MSAjax">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.MSAjax.5.0.0\lib\net45\Microsoft.ScriptManager.MSAjax.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ScriptManager.WebForms">
+      <HintPath>..\packages\Microsoft.AspNet.ScriptManager.WebForms.5.0.0\lib\net45\Microsoft.ScriptManager.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Web.Optimization.WebForms">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.WebForms.1.1.3\lib\net45\Microsoft.AspNet.Web.Optimization.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.FriendlyUrls">
+      <HintPath>..\packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.2\lib\net45\Microsoft.AspNet.FriendlyUrls.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Contact.aspx" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="css\bootstrap-datepicker3.min.css" />
+    <Content Include="css\bootstrap-datetimepicker.min.css" />
+    <Content Include="css\bootstrap-multiselect.css" />
+    <Content Include="css\colorbox.css" />
+    <Content Include="css\dore.dark.bluenavy.css" />
+    <Content Include="css\dore.dark.bluenavy.min.css" />
+    <Content Include="css\dore.dark.blueolympic.css" />
+    <Content Include="css\dore.dark.blueolympic.min.css" />
+    <Content Include="css\dore.dark.blueyale.css" />
+    <Content Include="css\dore.dark.blueyale.min.css" />
+    <Content Include="css\dore.dark.greenlime.css" />
+    <Content Include="css\dore.dark.greenlime.min.css" />
+    <Content Include="css\dore.dark.greenmoss.css" />
+    <Content Include="css\dore.dark.greenmoss.min.css" />
+    <Content Include="css\dore.dark.greysteel.css" />
+    <Content Include="css\dore.dark.greysteel.min.css" />
+    <Content Include="css\dore.dark.orangecarrot.css" />
+    <Content Include="css\dore.dark.orangecarrot.min.css" />
+    <Content Include="css\dore.dark.purplemonster.css" />
+    <Content Include="css\dore.dark.purplemonster.min.css" />
+    <Content Include="css\dore.dark.redruby.css" />
+    <Content Include="css\dore.dark.redruby.min.css" />
+    <Content Include="css\dore.dark.yellowgranola.css" />
+    <Content Include="css\dore.dark.yellowgranola.min.css" />
+    <Content Include="css\dore.light.bluenavy.css" />
+    <Content Include="css\dore.light.bluenavy.min.css" />
+    <Content Include="css\dore.light.blueolympic.css" />
+    <Content Include="css\dore.light.blueolympic.min.css" />
+    <Content Include="css\dore.light.blueyale.css" />
+    <Content Include="css\dore.light.blueyale.min.css" />
+    <Content Include="css\dore.light.greenlime.css" />
+    <Content Include="css\dore.light.greenlime.min.css" />
+    <Content Include="css\dore.light.greenmoss.css" />
+    <Content Include="css\dore.light.greenmoss.min.css" />
+    <Content Include="css\dore.light.greysteel.css" />
+    <Content Include="css\dore.light.greysteel.min.css" />
+    <Content Include="css\dore.light.orangecarrot.css" />
+    <Content Include="css\dore.light.orangecarrot.min.css" />
+    <Content Include="css\dore.light.purplemonster.css" />
+    <Content Include="css\dore.light.purplemonster.min.css" />
+    <Content Include="css\dore.light.redruby.css" />
+    <Content Include="css\dore.light.redruby.min.css" />
+    <Content Include="css\dore.light.yellowgranola.css" />
+    <Content Include="css\dore.light.yellowgranola.min.css" />
+    <Content Include="css\images\border.png" />
+    <Content Include="css\images\controls.png" />
+    <Content Include="css\images\loading.gif" />
+    <Content Include="css\images\loading_background.png" />
+    <Content Include="css\images\overlay.png" />
+    <Content Include="css\jquery.autocomplete.css" />
+    <Content Include="css\jquery.datepick.css" />
+    <Content Include="css\main.css" />
+    <Content Include="css\mainn.css" />
+    <Content Include="css\toastr.css" />
+    <Content Include="css\toastr.min.css" />
+    <Content Include="css\vendor\baguetteBox.min.css" />
+    <Content Include="css\vendor\bootstrap-datepicker3.min.css" />
+    <Content Include="css\vendor\bootstrap-float-label.min.css" />
+    <Content Include="css\vendor\bootstrap-stars.css" />
+    <Content Include="css\vendor\bootstrap-tagsinput.css" />
+    <Content Include="css\vendor\bootstrap.min.css" />
+    <Content Include="css\vendor\bootstrap.rtl.only.min.css" />
+    <Content Include="css\vendor\component-custom-switch.min.css" />
+    <Content Include="css\vendor\cropper.min.css" />
+    <Content Include="css\vendor\dataTables.bootstrap4.min.css" />
+    <Content Include="css\vendor\datatables.responsive.bootstrap4.min.css" />
+    <Content Include="css\vendor\dropzone.min.css" />
+    <Content Include="css\vendor\fullcalendar.min.css" />
+    <Content Include="css\vendor\glide.core.min.css" />
+    <Content Include="css\vendor\jquery.contextMenu.min.css" />
+    <Content Include="css\vendor\jquery.dataTables.min.css" />
+    <Content Include="css\vendor\nouislider.min.css" />
+    <Content Include="css\vendor\owl.carousel.min.css" />
+    <Content Include="css\vendor\perfect-scrollbar.css" />
+    <Content Include="css\vendor\quill.bubble.css" />
+    <Content Include="css\vendor\quill.snow.css" />
+    <Content Include="css\vendor\select2-bootstrap.min.css" />
+    <Content Include="css\vendor\select2.min.css" />
+    <Content Include="css\vendor\slick.css" />
+    <Content Include="css\vendor\smart_wizard.min.css" />
+    <Content Include="css\vendor\video-js.css" />
+    <Content Include="font\iconsmind-s\css\animation.css" />
+    <Content Include="font\iconsmind-s\css\iconsminds-codes.css" />
+    <Content Include="font\iconsmind-s\css\iconsminds-embedded.css" />
+    <Content Include="font\iconsmind-s\css\iconsminds-ie7-codes.css" />
+    <Content Include="font\iconsmind-s\css\iconsminds-ie7.css" />
+    <Content Include="font\iconsmind-s\css\iconsminds.css" />
+    <Content Include="font\iconsmind-s\demo.html" />
+    <Content Include="font\iconsmind-s\font\iconsminds.svg" />
+    <Content Include="font\iconsmind-s\README.txt" />
+    <Content Include="font\simple-line-icons\css\simple-line-icons.css" />
+    <Content Include="font\simple-line-icons\fonts\Simple-Line-Icons.svg" />
+    <Content Include="pop_SiparisIptalNedeni.aspx" />
+    <Content Include="pop_SiparisEkle.aspx" />
+    <Content Include="pop_UrunEkle.aspx" />
+    <Content Include="pop_UrunTuruEkle.aspx" />
+    <Content Include="pop_MusteriEkle.aspx" />
+    <Content Include="pop_KullaniciEkle.aspx" />
+    <Content Include="sf_Urunler.aspx" />
+    <Content Include="sf_Siparisler.aspx" />
+    <Content Include="sf_UrunTuru.aspx" />
+    <Content Include="sf_Musteriler.aspx" />
+    <Content Include="sf_Kullanicilar.aspx" />
+    <Content Include="inside.aspx" />
+    <Content Include="img\A.png" />
+    <Content Include="img\b.png" />
+    <Content Include="img\c.png" />
+    <Content Include="img\cancel.png" />
+    <Content Include="img\cards\thumb-1.jpg" />
+    <Content Include="img\cards\thumb-2.jpg" />
+    <Content Include="img\cards\thumb-3.jpg" />
+    <Content Include="img\cards\thumb-4.jpg" />
+    <Content Include="img\carousels\1.jpg" />
+    <Content Include="img\carousels\2.jpg" />
+    <Content Include="img\carousels\3.jpg" />
+    <Content Include="img\carousels\thumb-1.jpg" />
+    <Content Include="img\carousels\thumb-2.jpg" />
+    <Content Include="img\carousels\thumb-3.jpg" />
+    <Content Include="img\carousels\thumb-4.jpg" />
+    <Content Include="img\d.png" />
+    <Content Include="img\details\1.jpg" />
+    <Content Include="img\details\2.jpg" />
+    <Content Include="img\details\3.jpg" />
+    <Content Include="img\details\4.jpg" />
+    <Content Include="img\details\5.jpg" />
+    <Content Include="img\details\small-1.jpg" />
+    <Content Include="img\details\small-2.jpg" />
+    <Content Include="img\details\small-3.jpg" />
+    <Content Include="img\details\small-4.jpg" />
+    <Content Include="img\details\small-5.jpg" />
+    <Content Include="img\details\small-6.jpg" />
+    <Content Include="img\details\small-7.jpg" />
+    <Content Include="img\details\small-8.jpg" />
+    <Content Include="img\e.png" />
+    <Content Include="img\f.png" />
+    <Content Include="img\g.png" />
+    <Content Include="img\h.png" />
+    <Content Include="img\i.png" />
+    <Content Include="img\j.png" />
+    <Content Include="img\k.png" />
+    <Content Include="img\L.png" />
+    <Content Include="img\landing-page\applications\chat.jpg" />
+    <Content Include="img\landing-page\applications\library.jpg" />
+    <Content Include="img\landing-page\applications\survey.jpg" />
+    <Content Include="img\landing-page\applications\todo.jpg" />
+    <Content Include="img\landing-page\components.jpg" />
+    <Content Include="img\landing-page\features\extra-responsive.png" />
+    <Content Include="img\landing-page\features\layouts-for-the-job.png" />
+    <Content Include="img\landing-page\features\plesant-design.png" />
+    <Content Include="img\landing-page\features\smart-menu.png" />
+    <Content Include="img\landing-page\features\superfine-charts.png" />
+    <Content Include="img\landing-page\home-hero-mobile.png" />
+    <Content Include="img\landing-page\home-hero.png" />
+    <Content Include="img\landing-page\layouts\authentication.jpg" />
+    <Content Include="img\landing-page\layouts\data-list-app-menu-hidden.jpg" />
+    <Content Include="img\landing-page\layouts\data-list.jpg" />
+    <Content Include="img\landing-page\layouts\details.jpg" />
+    <Content Include="img\landing-page\layouts\image-list.jpg" />
+    <Content Include="img\landing-page\layouts\menu-default.jpg" />
+    <Content Include="img\landing-page\layouts\menu-hidden.jpg" />
+    <Content Include="img\landing-page\layouts\menu-subhidden.jpg" />
+    <Content Include="img\landing-page\layouts\search-result.jpg" />
+    <Content Include="img\landing-page\layouts\spa.jpg" />
+    <Content Include="img\landing-page\layouts\tabs.jpg" />
+    <Content Include="img\landing-page\layouts\thumb-list.jpg" />
+    <Content Include="img\login\balloon-lg.jpg" />
+    <Content Include="img\login\balloon-lg_.jpg" />
+    <Content Include="img\login\balloon.jpg" />
+    <Content Include="img\login\plane.jpg" />
+    <Content Include="img\login\ua_background.jpg" />
+    <Content Include="img\m.png" />
+    <Content Include="img\minus.gif" />
+    <Content Include="img\n.png" />
+    <Content Include="img\notifications\1.jpg" />
+    <Content Include="img\notifications\2.jpg" />
+    <Content Include="img\notifications\3.jpg" />
+    <Content Include="img\o.png" />
+    <Content Include="img\ok.png" />
+    <Content Include="img\p.png" />
+    <Content Include="img\plus.gif" />
+    <Content Include="img\products\bebinca-thumb.jpg" />
+    <Content Include="img\products\cheesecake-thumb.jpg" />
+    <Content Include="img\products\chocolate-cake-thumb.jpg" />
+    <Content Include="img\products\coconut-cake.jpg" />
+    <Content Include="img\products\cremeschnitte-thumb.jpg" />
+    <Content Include="img\products\fat-rascal-thumb.jpg" />
+    <Content Include="img\products\financier-thumb.jpg" />
+    <Content Include="img\products\fruitcake-thumb.jpg" />
+    <Content Include="img\products\fruitcake.jpg" />
+    <Content Include="img\products\genoise-thumb.jpg" />
+    <Content Include="img\products\gingerbread-thumb.jpg" />
+    <Content Include="img\products\goose-breast-thumb.jpg" />
+    <Content Include="img\products\magdalena-thumb.jpg" />
+    <Content Include="img\products\magdalena.jpg" />
+    <Content Include="img\products\marble-cake-thumb.jpg" />
+    <Content Include="img\products\marble-cake.jpg" />
+    <Content Include="img\products\merveilleux-thumb.jpg" />
+    <Content Include="img\products\napoleonshat-thumb.jpg" />
+    <Content Include="img\products\napoleonshat.jpg" />
+    <Content Include="img\products\parkin-thumb.jpg" />
+    <Content Include="img\products\parkin.jpg" />
+    <Content Include="img\products\petit-gateau-thumb.jpg" />
+    <Content Include="img\products\salzburger-nockerl-thumb.jpg" />
+    <Content Include="img\products\souffle-thumb.jpg" />
+    <Content Include="img\products\streuselkuchen-thumb.jpg" />
+    <Content Include="img\products\tea-loaf-thumb.jpg" />
+    <Content Include="img\products\tea-loaf.jpg" />
+    <Content Include="img\profiles\1.jpg" />
+    <Content Include="img\profiles\l-1.jpg" />
+    <Content Include="img\profiles\l-10.jpg" />
+    <Content Include="img\profiles\l-11.jpg" />
+    <Content Include="img\profiles\l-2.jpg" />
+    <Content Include="img\profiles\l-3.jpg" />
+    <Content Include="img\profiles\l-4.jpg" />
+    <Content Include="img\profiles\l-5.jpg" />
+    <Content Include="img\profiles\l-6.jpg" />
+    <Content Include="img\profiles\l-7.jpg" />
+    <Content Include="img\profiles\l-8.jpg" />
+    <Content Include="img\profiles\l-9.jpg" />
+    <Content Include="img\q.png" />
+    <Content Include="img\r.png" />
+    <Content Include="img\s.png" />
+    <Content Include="img\social\header.jpg" />
+    <Content Include="img\t.png" />
+    <Content Include="img\u.png" />
+    <Content Include="img\video\big-buck-bunny-poster.jpg" />
+    <Content Include="img\video\subpage-video-poster.jpg" />
+    <Content Include="img\w.png" />
+    <Content Include="img\X.png" />
+    <Content Include="img\y.png" />
+    <Content Include="img\z.png" />
+    <Content Include="img\İ.png" />
+    <Content Include="js\bootstrap-datetimepicker.min.js" />
+    <Content Include="js\bootstrap-multiselect.js" />
+    <Content Include="js\dore-plugins\select.from.library.js" />
+    <Content Include="js\dore.script.js" />
+    <Content Include="js\dore.scripts.landingpage.js" />
+    <Content Include="js\imask.js" />
+    <Content Include="js\jquery.autocomplete.js" />
+    <Content Include="js\jquery.colorbox.js" />
+    <Content Include="js\jquery.datepick.js" />
+    <Content Include="js\main.js" />
+    <Content Include="js\scripts.js" />
+    <Content Include="js\scripts.single.theme.js" />
+    <Content Include="js\toastr.min.js" />
+    <Content Include="js\vendor\baguetteBox.min.js" />
+    <Content Include="js\vendor\bootstrap-datepicker.js" />
+    <Content Include="js\vendor\bootstrap-datetimepicker.js" />
+    <Content Include="js\vendor\bootstrap-notify.min.js" />
+    <Content Include="js\vendor\bootstrap-tagsinput.min.js" />
+    <Content Include="js\vendor\bootstrap.bundle.min.js" />
+    <Content Include="js\vendor\Chart.bundle.min.js" />
+    <Content Include="js\vendor\chartjs-plugin-datalabels.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\ckeditor.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\ar.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\ast.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\bg.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\ca.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\cs.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\da.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\de.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\el.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\en-au.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\eo.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\es.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\et.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\eu.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\fa.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\fi.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\fr.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\gl.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\gu.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\hr.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\hu.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\it.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\ja.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\km.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\kn.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\ko.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\ku.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\nb.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\ne.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\nl.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\no.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\oc.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\pl.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\pt-br.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\pt.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\ro.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\ru.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\si.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\sk.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\sq.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\sv.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\tr.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\tt.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\ug.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\uk.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\zh-cn.js" />
+    <Content Include="js\vendor\ckeditor5-build-classic\translations\zh.js" />
+    <Content Include="js\vendor\countdown.min.js" />
+    <Content Include="js\vendor\cropper.min.js" />
+    <Content Include="js\vendor\datatables.min.js" />
+    <Content Include="js\vendor\dropzone.min.js" />
+    <Content Include="js\vendor\fullcalendar.min.js" />
+    <Content Include="js\vendor\glide.min.js" />
+    <Content Include="js\vendor\jquery-3.3.1.min.js" />
+    <Content Include="js\vendor\jquery.autoellipsis.js" />
+    <Content Include="js\vendor\jquery.barrating.min.js" />
+    <Content Include="js\vendor\jquery.contextMenu.min.js" />
+    <Content Include="js\vendor\jquery.smartWizard.min.js" />
+    <Content Include="js\vendor\jquery.validate\additional-methods.js" />
+    <Content Include="js\vendor\jquery.validate\additional-methods.min.js" />
+    <Content Include="js\vendor\jquery.validate\jquery.validate.js" />
+    <Content Include="js\vendor\jquery.validate\jquery.validate.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_ar.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_ar.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_az.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_az.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_bg.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_bg.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_bn_BD.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_bn_BD.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_ca.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_ca.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_cs.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_cs.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_da.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_da.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_de.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_de.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_el.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_el.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_es.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_es.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_es_AR.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_es_AR.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_es_PE.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_es_PE.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_et.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_et.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_eu.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_eu.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_fa.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_fa.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_fi.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_fi.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_fr.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_fr.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_ge.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_ge.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_gl.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_gl.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_he.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_he.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_hr.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_hr.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_hu.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_hu.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_hy_AM.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_hy_AM.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_id.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_id.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_is.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_is.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_it.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_it.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_ja.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_ja.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_ka.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_ka.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_kk.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_kk.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_ko.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_ko.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_lt.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_lt.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_lv.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_lv.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_mk.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_mk.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_my.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_my.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_nl.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_nl.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_no.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_no.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_pl.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_pl.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_pt_BR.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_pt_BR.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_pt_PT.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_pt_PT.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_ro.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_ro.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_ru.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_ru.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_sd.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_sd.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_si.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_si.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_sk.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_sk.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_sl.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_sl.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_sr.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_sr.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_sr_lat.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_sr_lat.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_sv.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_sv.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_th.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_th.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_tj.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_tj.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_tr.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_tr.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_uk.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_uk.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_ur.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_ur.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_vi.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_vi.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_zh.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_zh.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_zh_TW.js" />
+    <Content Include="js\vendor\jquery.validate\localization\messages_zh_TW.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\methods_de.js" />
+    <Content Include="js\vendor\jquery.validate\localization\methods_de.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\methods_es_CL.js" />
+    <Content Include="js\vendor\jquery.validate\localization\methods_es_CL.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\methods_fi.js" />
+    <Content Include="js\vendor\jquery.validate\localization\methods_fi.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\methods_it.js" />
+    <Content Include="js\vendor\jquery.validate\localization\methods_it.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\methods_nl.js" />
+    <Content Include="js\vendor\jquery.validate\localization\methods_nl.min.js" />
+    <Content Include="js\vendor\jquery.validate\localization\methods_pt.js" />
+    <Content Include="js\vendor\jquery.validate\localization\methods_pt.min.js" />
+    <Content Include="js\vendor\landing-page\headroom.min.js" />
+    <Content Include="js\vendor\landing-page\jquery.autoellipsis.js" />
+    <Content Include="js\vendor\landing-page\jQuery.headroom.js" />
+    <Content Include="js\vendor\landing-page\jquery.scrollTo.min.js" />
+    <Content Include="js\vendor\moment.min.js" />
+    <Content Include="js\vendor\mousetrap.js" />
+    <Content Include="js\vendor\mousetrap.min.js" />
+    <Content Include="js\vendor\nouislider.min.js" />
+    <Content Include="js\vendor\owl.carousel.min.js" />
+    <Content Include="js\vendor\perfect-scrollbar.min.js" />
+    <Content Include="js\vendor\progressbar.min.js" />
+    <Content Include="js\vendor\quill.min.js" />
+    <Content Include="js\vendor\select2.full.js" />
+    <Content Include="js\vendor\slick.min.js" />
+    <Content Include="js\vendor\Sortable.js" />
+    <Content Include="js\vendor\typeahead.bundle.js" />
+    <Content Include="js\vendor\video.js" />
+    <Content Include="js\vendor\videojs-youtube.min.js" />
+    <Content Include="login.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="css\.DS_Store" />
+    <Content Include="css\sass\.DS_Store" />
+    <Content Include="css\sass\themes\dore.dark.bluenavy.scss" />
+    <Content Include="css\sass\themes\dore.dark.blueolympic.scss" />
+    <Content Include="css\sass\themes\dore.dark.blueyale.scss" />
+    <Content Include="css\sass\themes\dore.dark.greenlime.scss" />
+    <Content Include="css\sass\themes\dore.dark.greenmoss.scss" />
+    <Content Include="css\sass\themes\dore.dark.greysteel.scss" />
+    <Content Include="css\sass\themes\dore.dark.orangecarrot.scss" />
+    <Content Include="css\sass\themes\dore.dark.purplemonster.scss" />
+    <Content Include="css\sass\themes\dore.dark.redruby.scss" />
+    <Content Include="css\sass\themes\dore.dark.yellowgranola.scss" />
+    <Content Include="css\sass\themes\dore.light.bluenavy.scss" />
+    <Content Include="css\sass\themes\dore.light.blueolympic.scss" />
+    <Content Include="css\sass\themes\dore.light.blueyale.scss" />
+    <Content Include="css\sass\themes\dore.light.greenlime.scss" />
+    <Content Include="css\sass\themes\dore.light.greenmoss.scss" />
+    <Content Include="css\sass\themes\dore.light.greysteel.scss" />
+    <Content Include="css\sass\themes\dore.light.orangecarrot.scss" />
+    <Content Include="css\sass\themes\dore.light.purplemonster.scss" />
+    <Content Include="css\sass\themes\dore.light.redruby.scss" />
+    <Content Include="css\sass\themes\dore.light.yellowgranola.scss" />
+    <Content Include="css\sass\_dore.style.scss" />
+    <Content Include="css\sass\_mixins.scss" />
+    <Content Include="img\.DS_Store" />
+    <Content Include="js\.DS_Store" />
+    <Content Include="js\vendor\.DS_Store" />
+    <Content Include="js\vendor\ckeditor5-build-classic\ckeditor.js.map" />
+    <Content Include="js\vendor\ckeditor5-build-classic\LICENSE.md" />
+    <Content Include="js\vendor\ckeditor5-build-classic\README.md" />
+    <Content Include="font\iconsmind-s\config.json" />
+    <Content Include="font\iconsmind-s\font\iconsminds.eot" />
+    <Content Include="font\iconsmind-s\font\iconsminds.ttf" />
+    <Content Include="font\iconsmind-s\font\iconsminds.woff" />
+    <Content Include="font\iconsmind-s\font\iconsminds.woff2" />
+    <Content Include="font\simple-line-icons\fonts\Simple-Line-Icons.eot" />
+    <Content Include="font\simple-line-icons\fonts\Simple-Line-Icons.ttf" />
+    <Content Include="font\simple-line-icons\fonts\Simple-Line-Icons.woff" />
+    <Content Include="font\simple-line-icons\fonts\Simple-Line-Icons.woff2" />
+    <Content Include="font\simple-line-icons\LICENSE.md" />
+    <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="logos\black.svg" />
+    <Content Include="logos\mobile.svg" />
+    <Content Include="logos\white-full.svg" />
+    <Content Include="logos\white.svg" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-3.4.1.js" />
+    <Content Include="Scripts\jquery-3.4.1.min.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.js" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\WebForms\DetailsView.js" />
+    <Content Include="Scripts\WebForms\Focus.js" />
+    <Content Include="Scripts\WebForms\GridView.js" />
+    <Content Include="Scripts\WebForms\Menu.js" />
+    <Content Include="Scripts\WebForms\MenuStandards.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjax.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxApplicationServices.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxComponentModel.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxCore.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxGlobalization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxHistory.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxNetwork.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxSerialization.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxTimer.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebForms.js" />
+    <Content Include="Scripts\WebForms\MSAjax\MicrosoftAjaxWebServices.js" />
+    <Content Include="Scripts\WebForms\SmartNav.js" />
+    <Content Include="Scripts\WebForms\TreeView.js" />
+    <Content Include="Scripts\WebForms\WebForms.js" />
+    <Content Include="Scripts\WebForms\WebParts.js" />
+    <Content Include="Scripts\WebForms\WebUIValidation.js" />
+    <Content Include="Ana.Master" />
+    <Content Include="ViewSwitcher.ascx" />
+    <Content Include="Web.config" />
+    <Content Include="Bundle.config" />
+    <Content Include="Site.Mobile.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pop_SiparisIptalNedeni.aspx.cs">
+      <DependentUpon>pop_SiparisIptalNedeni.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pop_SiparisIptalNedeni.aspx.designer.cs">
+      <DependentUpon>pop_SiparisIptalNedeni.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pop_SiparisEkle.aspx.cs">
+      <DependentUpon>pop_SiparisEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pop_SiparisEkle.aspx.designer.cs">
+      <DependentUpon>pop_SiparisEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pop_UrunEkle.aspx.cs">
+      <DependentUpon>pop_UrunEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pop_UrunEkle.aspx.designer.cs">
+      <DependentUpon>pop_UrunEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pop_UrunTuruEkle.aspx.cs">
+      <DependentUpon>pop_UrunTuruEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pop_UrunTuruEkle.aspx.designer.cs">
+      <DependentUpon>pop_UrunTuruEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pop_MusteriEkle.aspx.cs">
+      <DependentUpon>pop_MusteriEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pop_MusteriEkle.aspx.designer.cs">
+      <DependentUpon>pop_MusteriEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pop_KullaniciEkle.aspx.cs">
+      <DependentUpon>pop_KullaniciEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pop_KullaniciEkle.aspx.designer.cs">
+      <DependentUpon>pop_KullaniciEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sf_Urunler.aspx.cs">
+      <DependentUpon>sf_Urunler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sf_Urunler.aspx.designer.cs">
+      <DependentUpon>sf_Urunler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sf_Siparisler.aspx.cs">
+      <DependentUpon>sf_Siparisler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sf_Siparisler.aspx.designer.cs">
+      <DependentUpon>sf_Siparisler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sf_UrunTuru.aspx.cs">
+      <DependentUpon>sf_UrunTuru.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sf_UrunTuru.aspx.designer.cs">
+      <DependentUpon>sf_UrunTuru.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sf_Musteriler.aspx.cs">
+      <DependentUpon>sf_Musteriler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sf_Musteriler.aspx.designer.cs">
+      <DependentUpon>sf_Musteriler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sf_Kullanicilar.aspx.cs">
+      <DependentUpon>sf_Kullanicilar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sf_Kullanicilar.aspx.designer.cs">
+      <DependentUpon>sf_Kullanicilar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="inside.aspx.cs">
+      <DependentUpon>inside.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="inside.aspx.designer.cs">
+      <DependentUpon>inside.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Model\KullaniciBilgisi.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ana.Master.cs">
+      <DependentUpon>Ana.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ana.Master.designer.cs">
+      <DependentUpon>Ana.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Mobile.Master.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Mobile.Master.designer.cs">
+      <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewSwitcher.ascx.designer.cs">
+      <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="exceldosyasi\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.4.1.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{cfcf6692-96d9-47d5-aed8-ab54861d7e29}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{fdd460ac-e8d7-4ef6-a0df-961528a455e5}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49973</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49973/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
